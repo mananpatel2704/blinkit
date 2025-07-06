@@ -1,0 +1,133 @@
+CSS Code
+ * {
+    box-sizing: border-box;
+ }
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+ }
+ header {
+    background-color: #ba0018;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .logo {
+    font-size: 50px;
+    font-weight: bold;
+ }
+ nav ul {
+    list-style-type: none;
+    padding: 0;
+ }
+ nav ul li {
+    display: inline;
+    margin: 0 15px;
+    font-size: 20px;
+ }
+ nav ul li a {
+    color: white;
+    text-decoration: none;
+ }
+ .hero {
+    text-align: center;
+    display: grid;
+    /* gap: 40px; */
+    padding: 0px 0px 30px 0px;
+    background-color: #fff;
+ }
+ .hero img{
+    width: 100%;
+    height: auto;
+ }
+ .hero section img{
+    width: 400px;
+    height: auto;
+    padding: 10px 15px 40px  20px;
+ }   
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+ }
+ .hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+ }
+ .search-box {
+    margin-top: 20px;
+ }
+ .search-box input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+ }
+ .search-box button {
+    padding: 10px 15px;
+    margin-left: 5px;
+    border: none;
+    background-color: #ba0018;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+ }
+ main {
+    padding: 20px;
+ }
+ h2 {
+    text-align: center;
+    margin-bottom: 20px;
+ }
+ .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 40px;
+    max-width: 1400px;
+    padding: 50px 0px;
+    margin: auto;
+ }
+ .product-card {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+ }
+ .product-card img {
+    width: 160px;
+    height: auto;
+ }
+ .product-card h3 {
+    margin: 10px 0 5px;
+ }
+ .product-card p {
+    margin: 5px 0 15px;
+    font-size: 14px;
+ }
+ .product-card button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ .product-card button:hover {
+ background-color: #45a049;
+ }
+ .product-card:hover {
+ transform: scale(1.05);
+ }
+ footer {
+ text-align: center;
+ padding: 20px;
+ background-color: #ba0018;
+ color: white;
+ width: 100%;
+ }
